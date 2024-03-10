@@ -1,5 +1,5 @@
-# ruby-cli-template
+# Guess_the_word
+A quiz based word guessing command line interface (CLI)
 
-Use this repository as a template for your Ruby CLI (command line interface) project.
-
-- Ruby version: `3.2.1`
+# Usage
+Run ruby app.rb in the terminal
