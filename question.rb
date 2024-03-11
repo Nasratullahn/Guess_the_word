@@ -16,11 +16,13 @@ class Question
 
   def submit_answer(point, answer)
     if answer != @correct_answers
+      exit if answer == 'exit'
       puts "  WRONG! Please Try Again"
     else
       @questions -= [@correct_answers]
       point.plus(point)
       puts "  CORRECT! Your point : #{point.value}"
+      
     end
   end
 end
